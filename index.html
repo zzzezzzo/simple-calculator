@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div id="screen_result">
+            <!-- <input type="text" id="result"> -->
+        </div>
+        <div id="button">
+            <input type="button" value="AC" onclick="remove()">
+            <!-- <input type="button" value="" onclick="git_value()">
+            <input type="button" value="" onclick="git_value()">
+            <input type="button" value="" onclick="git_value()"> -->
+            <br>
+            <input type="button" value="7" onclick="git_value('7')">
+            <input type="button" value="8" onclick="git_value('8')">
+            <input type="button" value="9" onclick="git_value('9')">
+            <input type="button" value="/" onclick="git_value('/')">
+            <br>
+            <input type="button" value="4" onclick="git_value('4')">
+            <input type="button" value="5" onclick="git_value('5')">
+            <input type="button" value="6" onclick="git_value('6')">
+            <input type="button" value="*" onclick="git_value('*')">
+            <br>
+            <input type="button" value="1" onclick="git_value('1')">
+            <input type="button" value="2" onclick="git_value('2')">
+            <input type="button" value="3" onclick="git_value('3')">
+            <input type="button" value="-" onclick="git_value('-')">
+            <br>
+            <input type="button" value="0" onclick="git_value('0')">
+            <input type="button" value="." onclick="git_value('.')">
+            <input type="button" value="=" onclick="cal()">
+            <input type="button" value="+" onclick="git_value('+')">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
